@@ -1,0 +1,13 @@
+.main {
+  margin: auto;
+  width: 750px;
+  max-width: calc(100vw - 50px);
+}
+.mainImage {
+  width: 100%;
+}
+.body p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+}
