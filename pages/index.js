@@ -39,7 +39,8 @@ export default function Home({ posts }) {
           {mappedPosts.length ? (
             mappedPosts.map((p, index) => (
               <div key={index} className={styles.post}>
-                <h1> I am {p.name}</h1>
+                <h1>Hi, I am </h1>
+                <h1>{p.name}</h1>
                 <div className={styles.body}>
                   <BlockContent blocks={p.bio} />
                 </div>
