@@ -1,14 +1,13 @@
-// References
-// https://www.youtube.com/watch?v=B1sXeodBLj4
-// https://www.youtube.com/watch?v=xtItzwYG6oQ
-// https://www.youtube.com/watch?v=NO7_jgzVgbc
-// https://www.youtube.com/watch?v=9P8mASSREYM&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=2
 import styles from "../styles/Home.module.css";
 import { Toolbar } from "../components/toolbar";
 import imageUrlBuilder from "@sanity/image-url";
 import { useState, useEffect } from "react";
 import BlockContent from "@sanity/block-content-to-react";
-
+// References
+// https://www.youtube.com/watch?v=B1sXeodBLj4
+// https://www.youtube.com/watch?v=xtItzwYG6oQ
+// https://www.youtube.com/watch?v=NO7_jgzVgbc
+// https://www.youtube.com/watch?v=9P8mASSREYM&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=2
 export default function Home({ posts }) {
   const [mappedPosts, setMappedPosts] = useState([]);
 
